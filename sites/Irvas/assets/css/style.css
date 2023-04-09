@@ -710,19 +710,22 @@ textarea:focus {
 }
 
 .container1 {
-  display: inline-block;
-
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .numbers1 {
   display: block;
   float: left;  
   color: white;
   font-size: 40px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .timer1 span{
-  margin-right: 2px;
+  text-align: center;
+  margin: 0 10px;
   background-color: #575757;
   border-radius: 7px;
   padding: 4px;
@@ -1484,6 +1487,21 @@ textarea:focus {
     margin-top: 2rem;
     padding: 1.5rem 2rem;
     padding-bottom: 3rem;
+  }
+
+  .timer1 {
+    width: 90vw;
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .timer1 .numbers1 {
+    font-size: 25px;
+  }   
+  
+  .timer1 .numbers1 .description1 {
+    font-size: 16px;
+    margin-top: 7px;
   }
 
   .form h2 {
